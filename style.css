@@ -1,0 +1,617 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: "Montserrat";
+  background: #F9F9F9;
+}
+/* nav section style start here */
+nav{
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+  justify-content: space-between;
+  align-items: center;
+
+}
+nav h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-heading{
+  font-size: 3.2rem;
+  color: #FF5B00;
+}
+
+.home-manu-service ul{
+  display: flex;
+}
+
+
+.home-manu-service ul li{
+  list-style: none;
+}
+
+.home-manu-service ul li a{
+  text-decoration: none;
+  margin-right: 50px;
+  color: black;
+  transition: .2s;
+  
+}
+
+.home-manu-service ul li a:hover{
+  border-bottom: 2px solid #FF5B00 ;
+  padding-bottom: 5px;
+
+}
+
+.register-btn{
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.register{
+  background: #FF5B00;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.login{
+  border: 2px solid #FF5B00 ;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 20px;
+  color: #FF5B00;
+  font-weight: bold;
+}
+/* nav section style end here */
+
+
+/* banner section style start here */
+.banner-section{
+
+  width: 90%;
+  margin: 10px auto;
+  height: 600px;
+  display: flex;
+}
+
+.banner-text{
+ 
+  width: 40%;
+  margin-top: 120px;
+}
+#meat{
+  color:#FF5B00;
+}
+
+.banner-text h1{
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+
+.btn-primary{
+  
+  background: #FF5B00;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 15px;
+
+}
+
+.search-food input{
+  margin-left: 20px;
+  padding: 10px 15px;
+  border-radius: 20px 0px 0px 20px;
+  margin-top: 30px;
+}
+
+#search{
+  padding: 10px 15px;
+  background: #FF5B00;
+  color: white;
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+  font-size: 16px;
+
+}
+
+.social-icon{
+display: flex;
+gap: 25px;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+.social-icon a{
+  font-size: 30px;
+  color: gray;
+}
+
+.banner-img-container{
+  width: 60%;
+}
+.banner-img{
+  
+  height: 450px;
+  width: 450px;
+  margin-left: 120px;
+  margin-top: 80px;
+  position: relative;
+}
+.banner-img img{
+  height: 100%;
+  width: 100%;
+}
+.three-fruts{
+  position: absolute;
+  margin-top: -240px;
+
+}
+
+.three-fruts img{
+  width: 200px;
+}
+.border-1 {
+  border: 2px dashed #FF5B00;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -473px;
+  margin-left: 92px;
+  opacity: 0.5;
+}
+
+.border-2 {
+  border: 2px dashed #FF5B00;
+  height: 550px;
+  width: 550px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -497px;
+  margin-left: 59px;
+  opacity: 0.5;
+}
+
+.copy img {
+  width: 199px;
+  height: 108px;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 425px;
+}
+
+/* banner section style end here */
+
+
+/* manu section style start here */
+.manu-heading{
+  display: flex;
+  margin-bottom: 30px;
+}
+.manu-heading h1{
+  margin: 10px auto;
+ 
+}
+
+.manu-cards-container{
+  width: 90%;
+  margin: 0px auto;
+  height: 360px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  
+
+
+}
+
+.manu-card-1{
+  background-image: url(image/pizza.jpg);
+  height: 350px;
+  background-repeat: no-repeat;
+  width: 250px;
+  background-position:  center;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+}
+
+
+.manu-card-gradient{
+  background: linear-gradient(black, black);
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 20px;
+  color: white;
+}
+
+.card-text{
+  margin-top: 170px;
+}
+
+.dolor{
+  font-size: 2rem;
+  color: #FF5B00;
+}
+
+.card-text h1, h4{
+  padding-left: 20px;
+}
+
+.manu-card-2{
+  background-image: url(image/salad.jpeg);
+  height: 350px;
+  background-repeat: no-repeat;
+  width: 250px;
+  background-position:  center;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+
+}
+
+
+.manu-card-3{
+  background-image: url(image/burger.jpg);
+  height: 350px;
+  background-repeat: no-repeat;
+  width: 250px;
+  background-position:  center;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+
+}
+
+
+
+.manu-card-4{
+  background-image: url(image/drinks.jpeg);
+  height: 350px;
+  background-repeat: no-repeat;
+  width: 250px;
+  background-position:  center;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+
+}
+
+
+
+/* manu section style end here */
+
+
+/* Our suggest section style start here */
+.our-suggest-heading{
+  text-align: center;
+  width: 80%;
+  margin: 20px auto;
+}
+.text-primary{
+  color: rgba(0, 0, 0, 0.58);
+}
+
+.suggest-cards-container{
+  
+  height: 480px;
+  width:80% ;
+  margin: 0px auto;
+  margin-top: 3rem;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  gap: 30px;
+ 
+  
+}
+
+.our-suggest-card{
+border-radius: 20px;
+width: 300px;
+height: 450px;
+box-shadow: 0px 0px 20px 5px black;
+position: relative;
+cursor: pointer;
+transition: 1s;
+}
+
+.our-suggest-card:hover{
+  transform: scale(1.1);
+}
+.our-suggest-card img{
+  width: 100%;
+  height: 250px;
+  border-radius: 20px 20px 0px 0px;
+ 
+}
+.offer{
+  position: absolute;
+ margin-top: -220px;
+ width: 60px;
+ background: red;
+ color: white;
+ border-radius: 0px 20px 20px 0px;
+ padding: 5px;
+}
+.fa{
+  color: #000000;
+  font-size: 20px;
+}
+.suggest-card-text{
+  padding: 10px;
+}
+
+.suggest-card-text h3{
+  color: red;
+}
+
+
+.second-line{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 60%;
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+
+
+
+
+/* Our suggest section style end here */
+
+/* chef section style start here */
+.chef-section-container{
+ 
+  width: 90%;
+  margin: 20px auto;
+}
+
+.chef-section-heading{
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.chef-section-heading h1{
+  font-size: 2.5rem;
+}
+
+.chef{
+  color:#FF5B00 ;
+}
+
+.chef-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.chef-member{
+  width: 300px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 1s;
+  cursor: pointer;
+}
+.chef-member:hover{
+  transform: translateY(-30px);
+}
+
+.chef-member img{
+
+  position: relative;
+  z-index: 1;
+  height: 350px
+  
+
+  
+  
+}
+.chef-bg {
+  background: #FF5B00;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  margin-left: 31px;
+  margin-top: -295px;
+}
+
+
+
+
+
+
+/* chef section style end here */
+
+/* customers exprience section style start here */
+.customer-experience-cards-container{
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.customers-experience-heading h1{
+  font-size: 3rem;
+  text-align: center;
+
+}
+#customer-experience{
+  color:#FF5B00 ;
+}
+.customer-experience-card{
+  width: 320px;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 2px 2px 20px black ;
+  cursor: pointer;
+}
+.experience-image-heading p{
+  text-align: justify;
+}
+.customer-image-section{
+  align-items: center;
+  gap: 30px;
+}
+.customer-image img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #000000 ;
+  border: none;
+  margin-bottom: 15px;
+}
+.customer-image-section{
+  display: flex;
+}
+.customer-experience-card p{
+  text-align: justify;
+}
+
+
+.customer-experience-card-2{
+  width: 320px;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 2px 2px 20px black ;
+  background: #f26a21;
+ cursor: pointer;
+
+}
+.customer-experience-card-2 p{
+  text-align: justify;
+}
+
+
+/* customers exprience section style end here */
+
+/* about us section style start here */
+.about-us-section{
+  width: 60%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.about-us-section h1{
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+
+
+/* about us section style end here */
+
+
+/* footer section style start here */ 
+.footer-section-container{
+  width: 100%;
+  height: 400px;
+  background:#FF5B00;
+  background-image: url(image/footer_image-removebg-preview.png);
+  text-align: center;
+  position: relative;
+
+}
+
+
+
+.footer-section-container h2{
+ 
+  font-size: 30px;
+  color: white;
+  margin-top: 30px;
+}
+#best-and-tasty{
+  color: rgba(255, 207, 35, 0.94);
+  font-size: 4rem;
+}
+
+.order-now{
+  background: white;
+  color:#FF5B00 ;
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px 25px;
+  border-radius: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+}
+
+.footer-social-section{
+  width: 80%;
+  background: black;
+  height: 150px;
+  margin: 0px auto;
+  border-radius: 40px 40px 0px 0px;
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 123px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  box-sizing: border-box;
+  
+}
+
+.footer-social-section img{
+  width:60px;
+  height: 60px;
+}
+
+.google-play-store{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 250px;
+  align-items: center;
+}
+
+
+.footer-social-icon{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  
+  
+  
+  }
+  .footer-social-icon a{
+    color: white;
+    font-size: 30px;
+    
+   
+    
+  }
+
+
+
+
+/* footer section style end here */ 
